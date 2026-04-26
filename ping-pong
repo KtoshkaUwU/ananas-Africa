@@ -101,6 +101,10 @@ while run:
            finish = True
            window.blit(lose2, (200,200))
            game_over = True
+
+       racket1.reset()
+       racket2.reset()
+       ball.reset()
  
 display.update()
 time.delay(50)
